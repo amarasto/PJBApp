@@ -5,16 +5,15 @@
   "scripts": {
     "ng": "ng",
     "start": "npm-run-all --parallel deploy build serve",
-    "serve":"ng serve",
+    "serve": "ng serve",
     "build": " ng build --prod",
-    "deploy":"npm-run-all --parallel pull local push",
+    "deploy": "npm-run-all --parallel pull local push",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pull":"git pull Base master",
-    "local":"git add .",
-    "push":"git push Base master"
-    
+    "pull": "git pull Base master",
+    "local": "git add .",
+    "push": "git push Base master"
   },
   "private": true,
   "dependencies": {
@@ -28,7 +27,12 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "bootstrap": "^3.3.7",
+    "bootstrap-progressbar": "^0.9.0",
     "core-js": "^2.4.1",
+    "font-awesome": "^4.7.0",
+    "green": "^0.1.3",
+    "jqvmap": "^1.5.1",
+    "nprogress": "^0.2.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
