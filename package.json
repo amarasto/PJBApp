@@ -11,10 +11,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pull":"git pull Base",
+    "pull":"git pull Base master",
     "local":"git add .",
-    "push":"git push Base",
-    "commit":"git commit"
+    "push":"git push Base master",
+    "commit":"git commit -m 'Latest Commit'"
   },
   "private": true,
   "dependencies": {
