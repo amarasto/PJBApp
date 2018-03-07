@@ -4,11 +4,17 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --prod",
+    "start": "npm-run-all --parallel deploy build serve",
+    "serve":"ng serve",
+    "build": " ng build --prod",
+    "deploy":"npm-run-all --parallel pull local push commit",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "pull":"git pull Base",
+    "local":"git add .",
+    "push":"git push Base",
+    "commit":"git commit"
   },
   "private": true,
   "dependencies": {
