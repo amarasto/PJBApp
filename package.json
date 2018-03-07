@@ -7,14 +7,14 @@
     "start": "npm-run-all --parallel deploy build serve",
     "serve":"ng serve",
     "build": " ng build --prod",
-    "deploy":"npm-run-all --parallel pull local push commit",
+    "deploy":"npm-run-all --parallel pull local push",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "pull":"git pull Base master",
     "local":"git add .",
-    "push":"git push Base master",
-    "commit":"git commit -m"
+    "push":"git push Base master"
+    
   },
   "private": true,
   "dependencies": {
