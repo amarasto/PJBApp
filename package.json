@@ -14,7 +14,7 @@
     "pull":"git pull Base master",
     "local":"git add .",
     "push":"git push Base master",
-    "commit":"git commit -m 'Latest Commit'"
+    "commit":"git commit -m"
   },
   "private": true,
   "dependencies": {
