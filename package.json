@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "npm-run-all --parallel deploy build serve",
+    "start": "npm-run-all --parallel  deploy build serve",
+    "check":"nsp check ",
     "serve": "ng serve",
     "build": " ng build --prod",
     "deploy": "npm-run-all --parallel pull local push",
