@@ -11,17 +11,17 @@ export class SidebarComponentComponent implements OnInit {
 
   ngOnInit() {
     $(document).ready(function(){
-      //var allPanels = $('.nav child_menu').hide();
+      var allPanels = $('.nav child_menu').hide();
       
       $('.menuItem').click(function() {
-      var  $this=$(this); 
-      $this.next().slideUp();
-      $this.next().slideToggle();
+       var  $this=$(this); 
+      //$this.next().slideUp();
+       $this.next().slideToggle();
       
-      }); 
+      // }); 
     });
-  
+   
 
-  }
-
+  });
+}
 }
