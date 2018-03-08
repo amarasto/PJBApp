@@ -1,37 +1,6 @@
 <html>
   <head>
-      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
- $(document).ready(function(){
-    alert("clisked");
-$('a').click(function(e) {
-    alert("clisked");
-  	e.preventDefault();
-  
-    var $this = $(this);
-  
-    if ($this.next().hasClass('show')) {
-        $this.next().removeClass('show');
-        $this.next().slideUp(350);
-    } else {
-        $this.parent().parent().find('li .inner').removeClass('show');
-        $this.parent().parent().find('li .inner').slideUp(350);
-        $this.next().toggleClass('show');
-        $this.next().slideToggle(350);
-    }
-});
-
-
-
- });
- 
-</script>
-
-
-
-  </head>
+ </head>
 <body>
 
  
@@ -42,7 +11,7 @@ $('a').click(function(e) {
               <a href=""><i class="fa fa-home gold"></i> Dashboard </a>
           </li>
           <li>
-              <a><i class="fa fa-tags gold"></i> Clients <span class="fa fa-chevron-down gold"></span></a>
+              <a href="#" class="menuItem"><i class="fa fa-tags gold"></i> Clients <span class="fa fa-chevron-down gold"></span></a>
               <ul class="nav child_menu">
                   <li><a href="">Manage Clients</a></li>
                  
@@ -54,7 +23,7 @@ $('a').click(function(e) {
               </ul>
           </li>
           <li>
-              <a><i class="fa fa-product-hunt gold"></i> Brands <span class="fa fa-chevron-down gold"></span></a>
+              <a href="#" class="menuItem"><i class="fa fa-product-hunt gold"></i> Brands <span class="fa fa-chevron-down gold"></span></a>
               <ul class="nav child_menu">
                   <li><a href="">Manage Brands</a></li>
               
@@ -66,7 +35,7 @@ $('a').click(function(e) {
           
           
           <li>
-              <a><i class="fa fa-money gold"></i> Cost Estimates<span class="fa fa-chevron-down"></span></a>
+              <a href="#" class="menuItem"><i class="fa fa-money gold"></i> Cost Estimates<span class="fa fa-chevron-down"></span></a>
               <ul class="nav child_menu">
           
                   <li><a href="">Media CE's</a></li>
@@ -84,7 +53,7 @@ $('a').click(function(e) {
           
           
           <li>
-              <a><i class="fa fa-barcode gold"></i>Billings <span class="fa fa-chevron-down"></span></a>
+              <a href="#" class="menuItem"><i class="fa fa-barcode gold"></i>Billings <span class="fa fa-chevron-down"></span></a>
               <ul class="nav child_menu">
               
                   <li><a href="">Media Billings</a></li>
@@ -97,7 +66,7 @@ $('a').click(function(e) {
               </ul>
           </li>
           <li>
-              <a><i class="fa fa-bar-chart-o gold"></i>Reports<span class="fa fa-chevron-down"></span></a>
+              <a href="#" class="menuItem"><i class="fa fa-bar-chart-o gold"></i>Reports<span class="fa fa-chevron-down"></span></a>
               <ul class="nav child_menu">
                
                       <li><a href="">Generate Media Report</a></li>                        
@@ -110,7 +79,7 @@ $('a').click(function(e) {
               </ul>
           </li>
           <li>
-              <a><i class="fa fa-upload gold"></i> Upload Logs <span class="fa fa-chevron-down"></span></a>
+              <a href="#" class="menuItem"><i class="fa fa-upload gold"></i> Upload Logs <span class="fa fa-chevron-down"></span></a>
               <ul class="nav child_menu">
                   <li><a href="">Manage Upload Logs</a></li>
               </ul>
@@ -118,13 +87,13 @@ $('a').click(function(e) {
           
 
               <li>
-                  <a><i class="fa fa-gears gold"></i> Finance Setting <span class="fa fa-chevron-down"></span></a>
+                  <a href="#" class="menuItem"><i class="fa fa-gears gold"></i> Finance Setting <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
                       <li><a href="">List of Settings</a></li>
                   </ul>
               </li>
        <li>
-                  <a><i class="fa fa-trash gold"></i> Reset Data <span class="fa fa-chevron-down"></span></a>
+                  <a href="#" class="menuItem"><i class="fa fa-trash gold"></i> Reset Data <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
                       <li><a href="">Confirm Reset</a></li>
                   </ul>

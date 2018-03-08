@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
+.nav child_menu {
+  padding-left: 1em !important;
+  overflow: hidden !important;
+  display: none !important;
 
+  
+}
 .left_col {
   background: rgb(37, 29, 29); }
 
@@ -59,7 +65,7 @@
 
 .nav-sm ul.nav.child_menu ul,
 .nav-sm .nav.side-menu li.active-sm ul ul {
-  position: static;
+  /* position: static; */
   width: 200px;
   background: none; }
 
