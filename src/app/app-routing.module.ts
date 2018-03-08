@@ -1,9 +1,9 @@
 import { NgModule } from "@angular/core";
 import{Routes,RouterModule} from '@angular/router';
-import { UploadClientsComponent } from "./Clients/upload-clients-component/upload-clients-component.component";
-import { PendingApprovalComponent } from "./Clients/pending-approval-component/pending-approval-component.component";
+import { UploadClientsComponent } from "./clients/upload-clients-component/upload-clients-component.component";
+import { PendingApprovalComponent } from "./clients/pending-approval-component/pending-approval-component.component";
 import { ManageClientComponent } from "./clients/manage-client-component/manage-client-component.component";
-import{AccountHandlerComponent} from "./clients/account-handler-component/account-handler-component.component";
+import{AccountHandlerComponent} from "./clients/account-handler/account-handler.component";
 const  appRoute:Routes = [
 {path:'', redirectTo:'/AppComponent',pathMatch:'full'},
 {path:'ManageClients',component:ManageClientComponent},
