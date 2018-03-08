@@ -8,7 +8,7 @@ const  appRoute:Routes = [
 {path:'', redirectTo:'/AppComponent',pathMatch:'full'},
 {path:'ManageClients',component:ManageClientComponent},
 {path:'AccountHandler',component:AccountHandlerComponent},
-{path:'PendingApprova;',component:PendingApprovalComponent},
+{path:'PendingApproval',component:PendingApprovalComponent},
 {path:'UploadClients',component:UploadClientsComponent},
 ];  
 @NgModule({
@@ -16,6 +16,6 @@ const  appRoute:Routes = [
     exports:[RouterModule]
 })
 export class AppRoutingModule
-{
+{   
 
 }
