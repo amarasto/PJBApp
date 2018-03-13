@@ -4,8 +4,10 @@ import { UploadClientsComponent } from "./clients/upload-clients-component/uploa
 import { PendingApprovalComponent } from "./clients/pending-approval-component/pending-approval-component.component";
 import { ManageClientComponent } from "./clients/manage-client-component/manage-client-component.component";
 import{AccountHandlerComponent} from "./clients/account-handler/account-handler.component";
+import { DashboardComponent } from "./Dashboard/dashboard/dashboard.component";
 const  appRoute:Routes = [
 {path:'', redirectTo:'/AppComponent',pathMatch:'full'},
+{path:'Dashboard',component:DashboardComponent},
 {path:'ManageClients',component:ManageClientComponent},
 {path:'AccountHandler',component:AccountHandlerComponent},
 {path:'PendingApproval',component:PendingApprovalComponent},

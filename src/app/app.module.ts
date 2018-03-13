@@ -10,6 +10,14 @@ import { AccountHandlerComponent } from './clients/account-handler/account-handl
 import { PendingApprovalComponent } from './clients/pending-approval-component/pending-approval-component.component';
 import { UploadClientsComponent } from './clients/upload-clients-component/upload-clients-component.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ClientBrandOverviewComponent } from './Dashboard/client-brand-overview/client-brand-overview.component';
+import { CostEstimateOverviewComponent } from './Dashboard/cost-estimate-overview/cost-estimate-overview.component';
+import { BillingOverviewComponent } from './Dashboard/billing-overview/billing-overview.component';
+import { RecentMediaCeComponent } from './Dashboard/recent-media-ce/recent-media-ce.component';
+import { RecentProdCeComponent } from './Dashboard/recent-prod-ce/recent-prod-ce.component';
+import { ProdTrackingReportOverviewComponent } from './Dashboard/prod-tracking-report-overview/prod-tracking-report-overview.component';
+import { MediaTrackingReportOverviewComponent } from './Dashboard/media-tracking-report-overview/media-tracking-report-overview.component';
+import { DashboardComponent } from './Dashboard/dashboard/dashboard.component';
 
 
 @NgModule({
@@ -20,7 +28,15 @@ import { AppRoutingModule } from './app-routing.module';
     ManageClientComponent,
     AccountHandlerComponent,
     PendingApprovalComponent,
-    UploadClientsComponent
+    UploadClientsComponent,
+    ClientBrandOverviewComponent,
+    CostEstimateOverviewComponent,
+    BillingOverviewComponent,
+    RecentMediaCeComponent,
+    RecentProdCeComponent,
+    ProdTrackingReportOverviewComponent,
+    MediaTrackingReportOverviewComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
