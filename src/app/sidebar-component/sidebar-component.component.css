@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
+@media only screen and (max-width: 600px) {
+
+
+  .fa-chevron-down
+  {
+    display: none !important;
+  
+  }
+
+  a
+  {
+    text-align: center;
+    
+  }
+body
+{
+  font-size:5px !important;
+}
+
+  
+}
+
+
+
+
+
+
+
 main_menu_side hidden-print main_menu
 {
   background-color:rgb(37, 29, 29);
