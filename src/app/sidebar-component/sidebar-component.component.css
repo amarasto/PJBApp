@@ -1,8 +1,5 @@
 @charset "UTF-8";
-
-@media only screen and (max-width: 600px) {
-
-
+@media only screen and (max-width: 400px) {
   .fa-chevron-down
   {
     display: none !important;
@@ -16,16 +13,16 @@
   }
 body
 {
-  font-size:5px !important;
+  font-size:10px !important;
 }
 
   
 }
+.menu_section {
+  margin-bottom: 35px; 
+  height:1000px;
 
-
-
-
-
+}
 
 
 main_menu_side hidden-print main_menu
@@ -135,11 +132,7 @@ main_menu_side hidden-print main_menu
 .nav-sm .profile {
   display: none; }
 
-.menu_section {
-  margin-bottom: 35px; 
-  height: 1000px !important;
-  
-}
+
 
 
 .menu_section h3 {
